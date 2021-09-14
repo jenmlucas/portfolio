@@ -11,7 +11,7 @@ body {
 /*navigation/header begins*/
 
 header {
-    background-image: url("assets/images/sunset.png");
+    background-image: url("../images/sunset.png");
     background-size: cover;
     position: -webkit-sticky;
     position: sticky;
@@ -32,7 +32,7 @@ header nav ul li a {
 }
 
 .jumbotron-img {
-    background-image: url("../assets/images/sunset.png");
+    background-image: url("../images/sunset.png");
     background-size: cover; 
     background-position: 100%;
 }
