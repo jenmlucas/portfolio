@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E2B27A;
+}
+
+/*navigation/header begins*/
+
+header {
+    background-image: url("assets/images/sunset.png");
+    background-size: cover;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0; 
+    z-index: 9999;      
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;    
+}
+
+header nav ul li a {
+    padding: 10px 30px;
+    font-size: 40px;  
+    color: white
+}
+
+.jumbotron-img {
+    background-image: url("../assets/images/sunset.png");
+    background-size: cover; 
+    background-position: 100%;
+}
+/*main photo of me */
+.headshot {
+    text-align: center;
+    padding: 90px 0 20px;
+    border-radius: 50%;
+    
+}
+
+#img {
+    border-radius: 50%; 
+}
+/*main photo ends */
+/* my name and web developer */
+#user {
+    font-size: 50px;
+    position: relative;
+    bottom: 320px;
+    padding-left: 6cm;
+    color: white;
+}
+
+#career {
+    font-size: 50px;
+    text-align: right;
+    position: relative;
+    bottom: 380px;
+    padding-right: 6cm;
+    color: white;
+}
+/* my name and web developer ends*/
+/* links to github, linkedin and resume */
+.accounts {
+    display: flex;
+    list-style: none;   
+    justify-content: center;
+  
+}
+
+.link-color {
+    color: white;
+    font-size: 40px;
+    margin: 50px;
+}
+/*linkes end */
+/*navigation/header ended*/
+
+/*main content started- about me, skills and education */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#me {
+    color:#383D5c;
+    border-bottom: 4px solid; 
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    width: 30%;
+    margin: 0 375px 60px; 
+}
+
+.info-img {
+     float: left;
+     border-radius: 15%;
+     position: relative;
+     bottom: 50px
+}
+
+.info-p {
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 5px;  
+}
+
+
+/* Second article in main section */
+.about-2 {
+    border: 10px solid #E36042;
+    background-color: #E2B27A;
+    flex: 1;
+    margin: 40px;
+    text-align: center;
+}
+
+.h2 {
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 4px solid;
+    color:#383D5c;
+    
+}
+
+.skill-ul {
+    list-style: none;
+    font-size: 40px;
+    margin: 40px;
+}
+
+/*start of project section */
