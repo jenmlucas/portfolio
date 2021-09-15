@@ -186,7 +186,6 @@ header nav ul li a {
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
 @media screen and (max-width: 980px) {
 /*this will be applied on any screen smaller than 980px */
-
 #user {
     position: relative;
     bottom: 480px;
@@ -215,6 +214,7 @@ header nav ul li a {
 
 .info-img {
     justify-content: center;
+}
 }
 
 /*MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -247,18 +247,11 @@ header nav ul li a {
     position: relative;
     right: 38px;
 }
-
 }
 
 /*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
 @media screen and (max-width: 575px) {
     /*this will be applied on any screen smaller than 575px */
-    header{
-        back
-    }
-
-
-
     #user {
         position: relative;
         bottom: 490px;
