@@ -186,34 +186,47 @@ header nav ul li a {
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
 @media screen and (max-width: 980px) {
 /*this will be applied on any screen smaller than 980px */
+.jumbotron-img {
+    padding: 19%;
+    padding-bottom: 20px;
+}
+
 #user {
     position: relative;
-    bottom: 480px;
-    right: 100px;
+    bottom: 640px;
     text-align: center;
-    right: 30px;
+    right: 100px;
 }
 
 #career {
     position: relative;
-    left: 180px;
-    top: -30px;
+    left: 125px;
+    top: -80px;
     text-align: center;
 }
 
 .headshot {
     position: relative;
-    top: 20px;
-    left: 60px;
+    bottom: 80px;
 }
 
 .accounts {
     position: relative;
-    left: 100px;
+    left: -5px;
 }
 
 .info-img {
     justify-content: center;
+}
+
+.info-img-2 {
+    position: relative;
+    left: 200px;
+}
+
+.link-2 {
+    position: relative;
+    left: 200px;
 }
 }
 
