@@ -96,51 +96,50 @@ header nav ul li a {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
+/* this is for skills and education only */
 .about-2 {
     border: 10px solid #E36042;
     background-color: #E2B27A;
     flex: 1;
-    margin: 80px 40px;
+    margin: 80px 0px;
     text-align: center;
 }
-
+/* this is for about me only */
 .about-3 {
     border: 10px solid #E36042;
     background-color: #E2B27A;
     flex: 2;
-    padding: 0 200px 0px 200px;
+    padding: 0 80px 40px 80px;
     margin: 40px;
     text-align:center;
+    flex-wrap: wrap;
 }
 
 #me {
     color:#383D5c;
     border-bottom: 4px solid; 
     justify-content: center;
-}
-
-.info {
     font-size: 50px;
-    
 }
 
 .info-img {
     border-radius: 15%;
-    align-items: center;   
+    align-items: center; 
+    margin-top: 20px;
 }
 
 .info-p {
     text-align: center;
-    font-size: 30px;  
-}
-
+    font-size: 30px;   
+    position: relative;  
+    top: 30px;
+} 
 
 /* Second article in main section */
 
 .h2 {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     border-bottom: 4px solid;
     color:#383D5c;
     
@@ -155,11 +154,11 @@ header nav ul li a {
 /*start of project section */
 .project-border {
     border: 10px solid #E36042;
-    background-color: #D8DCF5;
+    
     
 }
 
-#project-title {
+.project-title {
     text-align: center;
     font-size: 50px;
     color: #383D5C;
@@ -167,20 +166,51 @@ header nav ul li a {
 
 .projects { 
     display: inline-block;
-    margin: 40px 70px;
+    margin: 20px 70px 30px;
     justify-content: center; 
+}
+
+.info-img-3 {
+    border-radius: 15%;
+    align-items: center; 
+    margin-bottom: 40px;
 }
 
 .link {
     color:#383D5C;
     font-size: 40px;
-    margin: 60px
+    margin: 60px;
 }
 /* this is for the star project, github link to align */
 .link-2 {
     color:#383D5C;
     font-size: 40px;
     margin: 100px
+}
+
+/* contact me section*/
+.contact-border {
+    border: 10px solid #E36042;
+    margin: 40px auto;
+}
+
+#contact {
+    text-align: center;
+    font-size: 50px;
+}
+
+/* footer */
+#footer {
+    background-image: url("../images/sunset.png");
+    background-size: cover; 
+    background-attachment: fixed;
+    padding: 20px
+}
+
+#footer-copy {
+    text-align: center;
+    color: white;
+    font-size: 30px;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
