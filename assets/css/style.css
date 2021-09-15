@@ -16,19 +16,24 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0; 
-    z-index: 9999;      
+    z-index: 9999;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 header nav ul {
     display: flex;
     list-style: none;
-    justify-content: center;    
+    justify-content: center;  
+    flex-wrap: wrap;  
 }
 
 header nav ul li a {
     padding: 10px 30px;
     font-size: 40px;  
-    color: white
+    color: white;
 }
 
 .jumbotron-img {
@@ -40,8 +45,7 @@ header nav ul li a {
 .headshot {
     text-align: center;
     padding: 90px 0 20px;
-    border-radius: 50%;
-    
+    border-radius: 50%;  
 }
 
 #img {
@@ -164,7 +168,53 @@ header nav ul li a {
 }
 
 .link {
-    color:white;
+    color:#383D5C;
     font-size: 40px;
     margin: 60px
 }
+/* this is for the star project, github link to align */
+.link-2 {
+    color:#383D5C;
+    font-size: 40px;
+    margin: 100px
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
+@media screen and (max-width: 980px) {
+/*this will be applied on any screen smaller than 980px */
+.jumbotron-img {
+    padding-right: 19%;
+    background-position: 70%;
+}
+
+#user {
+    position: relative;
+    bottom: 480px;
+    right: 100px;
+    text-align: center;
+    right: 30px;
+}
+}
+
+#career {
+    position: relative;
+    left: 180px;
+    top: -30px;
+    text-align: center;
+}
+
+.headshot {
+    position: relative;
+    top: 20px;
+    left: 60px;
+}
+
+.accounts {
+    position: relative;
+    left: 100px;
+}
+
+.info-img {
+    justify-content: center;
+}
+
