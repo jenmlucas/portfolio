@@ -13,6 +13,9 @@ body {
 header {
     background-image: url("../images/sunset.png");
     background-size: cover;
+    background-position: center;
+    background-position: 80%;
+    background-attachment: fixed;
     position: -webkit-sticky;
     position: sticky;
     top: 0; 
@@ -39,7 +42,8 @@ header nav ul li a {
 .jumbotron-img {
     background-image: url("../images/sunset.png");
     background-size: cover; 
-    background-position: 100%;
+    background-position: 80%;
+    background-attachment: fixed;
 }
 /*main photo of me */
 .headshot {
@@ -182,10 +186,6 @@ header nav ul li a {
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
 @media screen and (max-width: 980px) {
 /*this will be applied on any screen smaller than 980px */
-.jumbotron-img {
-    padding-right: 19%;
-    background-position: 70%;
-}
 
 #user {
     position: relative;
@@ -193,7 +193,6 @@ header nav ul li a {
     right: 100px;
     text-align: center;
     right: 30px;
-}
 }
 
 #career {
@@ -218,3 +217,86 @@ header nav ul li a {
     justify-content: center;
 }
 
+/*MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    /* this will be applied on any screen between 768px an 575 px */
+#user {
+    position: relative;
+    bottom: 490px;
+    text-align: center;
+    right: 50px;
+}
+
+.headshot {
+    position: relative;
+    top: 80px;
+    left: 60px;
+}
+
+.accounts {
+    position: relative;
+    left: 65px;
+    flex-wrap: wrap;
+}
+
+.about-3 {
+    padding: 0px;
+}
+
+.info-img-2 {
+    position: relative;
+    right: 38px;
+}
+
+}
+
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
+@media screen and (max-width: 575px) {
+    /*this will be applied on any screen smaller than 575px */
+    header{
+        back
+    }
+
+
+
+    #user {
+        position: relative;
+        bottom: 490px;
+        right: 100px;
+        text-align: center;
+        right: 65px;
+    }
+
+    #career {
+        position: relative;
+        left: 170px;
+        top: -30px;
+        text-align: center;
+    }
+
+    .headshot {
+        position: relative;
+        top: 80px;
+        left: 60px;
+    }
+
+    .accounts {
+        position: relative;
+        left: 65px;
+        flex-wrap: wrap;
+    }
+
+    .info-img-2 {
+        position: relative;
+        right: 38px;
+    }
+
+    .link-2 {
+        position: relative;
+        right: 35px;
+    }
+
+    .about-3 {
+        padding: 0px;
+    }
+}
