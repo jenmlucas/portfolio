@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #E2B27A;
+    background-color: skyblue;
 }
 
 /*navigation/header begins*/
@@ -38,7 +38,7 @@ header nav ul li a {
     font-size: 40px;  
     color: white;
 }
-
+/* Background image */
 .jumbotron-img {
     background-image: url("../images/sunset.png");
     background-size: cover; 
@@ -48,31 +48,30 @@ header nav ul li a {
 /*main photo of me */
 .headshot {
     text-align: center;
-    padding: 90px 0 20px;
+    padding: 60px 0 20px;
     border-radius: 50%;  
+    display: flex;
+    justify-content: space-evenly;
+    padding: 150px;
 }
 
-#img {
+#headshot-img {
     border-radius: 50%; 
 }
 /*main photo ends */
 /* my name and web developer */
-#user {
+#my-name {
     font-size: 50px;
-    position: relative;
-    bottom: 320px;
-    padding-left: 6cm;
     color: white;
+    padding: 100px;
 }
 
 #career {
     font-size: 50px;
-    text-align: right;
-    position: relative;
-    bottom: 380px;
-    padding-right: 6cm;
     color: white;
+    padding: 100px;
 }
+
 /* my name and web developer ends*/
 /* links to github, linkedin and resume */
 .accounts {
@@ -91,112 +90,89 @@ header nav ul li a {
 /*navigation/header ended*/
 
 /*main content started- about me, skills and education */
-.about {
+.skills-me-education {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 /* this is for skills and education only */
-.about-2 {
+.skills-education {
     border: 10px solid #E36042;
-    background-color: #E2B27A;
+    background-color: rgb(245, 216, 221);
     flex: 1;
     margin: 80px 0px;
     text-align: center;
 }
-/* this is for about me only */
-.about-3 {
-    border: 10px solid #E36042;
-    background-color: #E2B27A;
-    flex: 2;
-    padding: 0 80px 40px 80px;
-    margin: 40px;
-    text-align:center;
-    flex-wrap: wrap;
-}
 
-#me {
-    color:#383D5c;
-    border-bottom: 4px solid; 
+.skills-education-h2 {
     font-size: 50px;
-    width: fit-content;
-    line-height: 60px;
-    position: relative;
-    left: 294px;
-}
-
-.info-img {
-    border-radius: 15%;
-    align-items: center; 
-    margin-top: 20px;
-}
-
-.info-p {
+    color:#383D5c;
     text-align: center;
-    font-size: 30px;   
-    position: relative;  
-    top: 30px;
-} 
-
-/* Second article in main section */
-
-.h2 {
-    font-size: 40px;
-    border-bottom: 4px solid;
-    color:#383D5c;
-    width: fit-content;
     line-height: 60px;
-    position: relative;
-    left: 150px;
-}
-
-.h2-2 {
-    font-size: 40px;
-    border-bottom: 4px solid;
-    color:#383D5c;
-    width: fit-content;
-    line-height: 60px;
-    position: relative;
-    left: 110px;  
-}
+    text-decoration: underline;
+}   
 
 .skill-ul {
     list-style: none;
     font-size: 40px;
     margin: 40px;
 }
-    
 
+/* this is for about me only */
+.about-me {
+    border: 10px solid red;
+    background-color: #E2B27A;
+    flex: 2;
+    padding: 0 80px 40px 80px;
+    margin: 40px;
+    text-align: center;
+}
+
+#me {
+    color:#383D5c; 
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.about-me-img {
+    border-radius: 15%;
+    align-items: center; 
+    margin-top: 20px;
+}
+
+.about-me-p {
+    text-align: center;
+    font-size: 30px;   
+    position: relative;  
+    top: 30px;
+} 
+    /*THIS IS WHERE I LEFT OFF- NEED TO REORGANIZE AND GIVE BETTER NAMES */
 /*start of project section */
 .project-border {
     border: 10px solid #E36042;
+    text-align: center;
 }
 
 .project-title {
     font-size: 50px;
     color: #383D5C;
-    border-bottom:  4px solid;
-    width: fit-content;
+    text-decoration: underline;
     line-height: 60px;
-    position: relative;
-    left: 865px;
-    
 }
 
 .projects { 
     display: inline-block;
     margin: 20px 100px 30px;
-    justify-content: center;
-    flex-wrap: wrap; 
 }
 
 #runbuddy {
     font-size: 25px;
-    position: relative;
-    right: 2px;
+    
 }
 
-.info-img-3 {
+.horiseon-img {
     border-radius: 15%;
     align-items: center; 
     margin-bottom: 40px;
@@ -220,13 +196,10 @@ header nav ul li a {
     color:#383D5C;
     font-size: 40px;
     margin: 100px;
-    position: relative;
-    right: 50px;
+    
 }
 
 #horiseon {
-    position: relative;
-    left: 40px;
     color:#383D5C;
     font-size: 30px;
 }
@@ -294,27 +267,21 @@ header nav ul li a {
 }
 
 #user {
-    position: relative;
-    bottom: 640px;
     text-align: center;
     right: 100px;
 }
 
 #career {
-    position: relative;
-    left: 125px;
     top: -80px;
     text-align: center;
 }
 
 .headshot {
-    position: relative;
-    bottom: 80px;
+  
 }
 
 .accounts {
-    position: relative;
-    left: -5px;
+    
 }
 
 .info-img {
@@ -322,15 +289,12 @@ header nav ul li a {
 }
 
 .info-img-2 {
-    position: relative;
-    left: 100px;
     margin-top: 20px;
     align-items: center;
 }
 
 .link-2 {
-      position: relative;
-      left: 200px;
+      
 }
 }
 
@@ -338,21 +302,14 @@ header nav ul li a {
 @media screen and (max-width: 768px) {
     /* this will be applied on any screen between 768px an 575 px */
 #user {
-    position: relative;
-    bottom: 490px;
     text-align: center;
     right: 50px;
 }
 
 .headshot {
-    position: relative;
-    top: 80px;
-    left: 60px;
 }
 
 .accounts {
-    position: relative;
-    left: 65px;
     flex-wrap: wrap;
 }
 
@@ -361,49 +318,31 @@ header nav ul li a {
 }
 
 .info-img-2 {
-    position: relative;
-    right: 38px;
-}
 }
 
 /*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
 @media screen and (max-width: 575px) {
     /*this will be applied on any screen smaller than 575px */
     #user {
-        position: relative;
-        bottom: 490px;
-        right: 100px;
         text-align: center;
         right: 65px;
     }
 
     #career {
-        position: relative;
-        left: 170px;
-        top: -30px;
         text-align: center;
     }
 
     .headshot {
-        position: relative;
-        top: 80px;
-        left: 60px;
     }
 
     .accounts {
-        position: relative;
-        left: 65px;
         flex-wrap: wrap;
     }
 
     .info-img-2 {
-        position: relative;
-        right: 38px;
     }
 
     .link-2 {
-        position: relative;
-        right: 35px;
     }
 
     .about-3 {
