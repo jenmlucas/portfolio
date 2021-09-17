@@ -97,8 +97,7 @@ header nav ul li a {
 }
 /* this is for skills and education only */
 .skills-education {
-    border: 10px solid #E36042;
-    background-color: rgb(245, 216, 221);
+    border: 10px solid rgb(201, 102, 118);
     flex: 1;
     margin: 80px 0px;
     text-align: center;
@@ -120,8 +119,8 @@ header nav ul li a {
 
 /* this is for about me only */
 .about-me {
-    border: 10px solid red;
-    background-color: #E2B27A;
+    border: 10px solid rgb(201, 102, 118);
+
     flex: 2;
     padding: 0 80px 40px 80px;
     margin: 40px;
@@ -148,65 +147,34 @@ header nav ul li a {
     position: relative;  
     top: 30px;
 } 
-    /*THIS IS WHERE I LEFT OFF- NEED TO REORGANIZE AND GIVE BETTER NAMES */
+
 /*start of project section */
 .project-border {
-    border: 10px solid #E36042;
-    text-align: center;
+    border: 10px solid rgb(201, 102, 118);
+
 }
 
 .project-title {
     font-size: 50px;
     color: #383D5C;
     text-decoration: underline;
-    line-height: 60px;
-}
+    text-align: center;
+} 
 
 .projects { 
     display: inline-block;
-    margin: 20px 100px 30px;
+    margin: 20px 90px 30px;
 }
 
-#runbuddy {
-    font-size: 25px;
-    
-}
-
-.horiseon-img {
+.projects-imgs {
     border-radius: 15%;
     align-items: center; 
     margin-bottom: 40px;
 }
 
-.link {
-    color:#383D5C;
-    font-size: 40px;
-    margin: 0px;
-}
-
-#link-3 {
-    color: #383D5C;
-    font-size: 40px;
-    margin: 15px;
-
-}
-
-/* this is for the star project, github link to align */
-.link-2 {
-    color:#383D5C;
-    font-size: 40px;
-    margin: 100px;
-    
-}
-
-#horiseon {
-    color:#383D5C;
-    font-size: 30px;
-}
-
 /* contact me section*/
 .contact-border {
-    border: 10px solid #E36042;
+    border: 10px solid rgb(201, 102, 118);
     margin: 40px auto;
     padding: 0px 0px 60px;
 }
@@ -214,33 +182,22 @@ header nav ul li a {
 #contact {
     text-align: center;
     font-size: 50px;
+    color: #383D5C;
+    text-decoration: underline;
 }
 
-.contact-list {
-    list-style: None;
-    border: 4px solid;
-    width: fit-content;
-    color: #D8DCF5;
-    padding: 5px 60px 30px 60px;
-}
-
-.contact-components {
-    font-size: 20px;
-    padding: 20px 20px 40px 20px;   
-    margin-left: 20px; 
-}
-
-#phone {
-    text-align: left;
+#reach-out {
     font-size: 30px;
-    text-decoration: underline;
-  
+    padding: 30px 0px 0px 400px;
 }
 
-#email {
-    font-size: 30px; 
-    text-align: left;
-    text-decoration: underline;
+#reach-out-p {
+    font-size: 20px;
+    padding: 30px 0px 0px 350px;
+}
+.contact-components {
+    list-style: none;
+    padding: 30px 0px 0px 400px;
 }
 
 
@@ -276,14 +233,6 @@ header nav ul li a {
     text-align: center;
 }
 
-.headshot {
-  
-}
-
-.accounts {
-    
-}
-
 .info-img {
     justify-content: center;
 }
@@ -293,10 +242,6 @@ header nav ul li a {
     align-items: center;
 }
 
-.link-2 {
-      
-}
-}
 
 /*MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
@@ -304,9 +249,6 @@ header nav ul li a {
 #user {
     text-align: center;
     right: 50px;
-}
-
-.headshot {
 }
 
 .accounts {
@@ -317,8 +259,6 @@ header nav ul li a {
     padding: 0px;
 }
 
-.info-img-2 {
-}
 
 /*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
 @media screen and (max-width: 575px) {
@@ -332,17 +272,9 @@ header nav ul li a {
         text-align: center;
     }
 
-    .headshot {
-    }
 
     .accounts {
         flex-wrap: wrap;
-    }
-
-    .info-img-2 {
-    }
-
-    .link-2 {
     }
 
     .about-3 {
