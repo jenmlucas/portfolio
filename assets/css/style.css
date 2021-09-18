@@ -263,17 +263,17 @@ header nav ul li a {
 @media screen and (max-width: 980px) {
 /*this will be applied on any screen smaller than 980px */
 .jumbotron-img {
-    padding-right: 230px;  
+    width: 100%;
 }
 
 .headshot {
     display: block;
-    padding: 20px 0px 0px 200px; 
+    justify-content: center;
 }
 
 .accounts {
     display: flex;
-    padding-left: 200px;
+    justify-content: center;
 }
 
 .skills-me-education {
