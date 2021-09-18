@@ -173,40 +173,78 @@ header nav ul li a {
 }
 
 /* contact me section*/
+.contact-location {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+} 
+
 .contact-border {
     border: 10px solid rgb(201, 102, 118);
-    margin: 40px auto;
-    padding: 0px 0px 60px;
+    margin: 40px 100px 0px 90px;
+    padding: 10px 300px;
 }
 
 #contact {
-    text-align: center;
     font-size: 50px;
+    padding-bottom: 30px;
+    text-align: center;
     color: #383D5C;
     text-decoration: underline;
 }
 
 #reach-out {
-    font-size: 30px;
-    padding: 30px 0px 0px 400px;
+    text-align: center;
+    font-size: 40px;
 }
 
 #reach-out-p {
-    font-size: 20px;
-    padding: 30px 0px 0px 350px;
-}
-.contact-components {
-    list-style: none;
-    padding: 30px 0px 0px 400px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
 }
 
-.contact-form {
-    border: 4px solid red;
-    display: flex;
-    justify-content: center;
-    margin: 0px 820px;
-    font-size: 50px;
+#phone {
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
 }
+
+#email {
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+/* contact form */
+.form-location {
+    border: 10px solid rgb(201, 102, 118);
+    margin: 40px 100px 0px 100px;
+    flex: 2;
+    
+}
+.form-content {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+#message-h5 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    color: #383D5C;
+    text-decoration: underline;
+}
+
+.input-values {
+    width: 50%;
+    text-align: center;
+    height: 60px;
+}
+
 /* footer */
 #footer {
     background-image: url("../images/sunset.png");
@@ -225,29 +263,10 @@ header nav ul li a {
 @media screen and (max-width: 980px) {
 /*this will be applied on any screen smaller than 980px */
 .jumbotron-img {
-    padding: 19%;
-    padding-bottom: 20px;
+    padding-right: 230px;  
 }
 
-#user {
-    text-align: center;
-    right: 100px;
-}
 
-#career {
-    top: -80px;
-    text-align: center;
-}
-
-.info-img {
-    justify-content: center;
-}
-
-.info-img-2 {
-    margin-top: 20px;
-    align-items: center;
-}
-}
 
 
 /*MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -271,21 +290,5 @@ header nav ul li a {
 /*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
 @media screen and (max-width: 575px) {
     /*this will be applied on any screen smaller than 575px */
-    #user {
-        text-align: center;
-        right: 65px;
-    }
-
-    #career {
-        text-align: center;
-    }
-
-
-    .accounts {
-        flex-wrap: wrap;
-    }
-
-    .about-3 {
-        padding: 0px;
-    }
-}
+   
+   
