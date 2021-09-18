@@ -206,7 +206,7 @@ header nav ul li a {
     background-image: url("../images/sunset.png");
     background-size: cover; 
     background-attachment: fixed;
-    padding: 20px
+    padding: 20px;
 }
 
 #footer-copy {
