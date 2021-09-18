@@ -266,29 +266,22 @@ header nav ul li a {
     padding-right: 230px;  
 }
 
-
-
-
-/*MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) {
-    /* this will be applied on any screen between 768px an 575 px */
-#user {
-    text-align: center;
-    right: 50px;
+.headshot {
+    display: block;
+    padding: 20px 0px 0px 200px; 
 }
 
 .accounts {
-    flex-wrap: wrap;
+    display: flex;
+    padding-left: 200px;
 }
 
-.about-3 {
-    padding: 0px;
+.skills-me-education {
+    flex-direction: column-reverse;
+}
+
+.about-me {
+    order: 1;
 }
 }
 
-
-/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
-@media screen and (max-width: 575px) {
-    /*this will be applied on any screen smaller than 575px */
-}
-}
