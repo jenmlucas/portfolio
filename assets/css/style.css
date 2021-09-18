@@ -95,6 +95,7 @@ header nav ul li a {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 /* this is for skills and education only */
 .skills-education {
     border: 10px solid rgb(201, 102, 118);
@@ -120,7 +121,6 @@ header nav ul li a {
 /* this is for about me only */
 .about-me {
     border: 10px solid rgb(201, 102, 118);
-
     flex: 2;
     padding: 0 80px 40px 80px;
     margin: 40px;
@@ -241,6 +241,7 @@ header nav ul li a {
     margin-top: 20px;
     align-items: center;
 }
+}
 
 
 /*MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -257,6 +258,7 @@ header nav ul li a {
 
 .about-3 {
     padding: 0px;
+}
 }
 
 
