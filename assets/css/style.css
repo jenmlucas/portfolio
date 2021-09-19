@@ -1,3 +1,10 @@
+:root {
+    --border-color: rgb(201, 102, 118); 
+    --text-color: white;
+    --header-color: #383D5C;
+    --font-size: 50px;
+} 
+
 *{
     margin: 0;
     padding: 0;
@@ -36,7 +43,7 @@ header nav ul {
 header nav ul li a {
     padding: 10px 30px;
     font-size: 40px;  
-    color: white;
+    color: var(--text-color);
 }
 /* Background image */
 .jumbotron-img {
@@ -61,14 +68,14 @@ header nav ul li a {
 /*main photo ends */
 /* my name and web developer */
 #my-name {
-    font-size: 50px;
-    color: white;
+    font-size: var(--font-size);
+    color: var(--text-color);
     padding: 100px;
 }
 
 #career {
-    font-size: 50px;
-    color: white;
+    font-size: var(--font-size);
+    color: var(--text-color);
     padding: 100px;
 }
 
@@ -82,7 +89,7 @@ header nav ul li a {
 }
 
 .link-color {
-    color: white;
+    color: var(--text-color);
     font-size: 40px;
     margin: 50px;
 }
@@ -98,15 +105,15 @@ header nav ul li a {
 
 /* this is for skills and education only */
 .skills-education {
-    border: 10px solid rgb(201, 102, 118);
+    border: 10px solid var(--border-color);
     flex: 1;
     margin: 80px 0px;
     text-align: center;
 }
 
 .skills-education-h2 {
-    font-size: 50px;
-    color:#383D5c;
+    font-size: var(--font-size);
+    color: var(--header-color);
     text-align: center;
     line-height: 60px;
     text-decoration: underline;
@@ -120,7 +127,7 @@ header nav ul li a {
 
 /* this is for about me only */
 .about-me {
-    border: 10px solid rgb(201, 102, 118);
+    border: 10px solid var(--border-color);
     flex: 2;
     padding: 0 80px 40px 80px;
     margin: 40px;
@@ -128,8 +135,8 @@ header nav ul li a {
 }
 
 #me {
-    color:#383D5c; 
-    font-size: 50px;
+    color: var(--header-color); 
+    font-size: var(--font-size);
     line-height: 60px;
     text-align: center;
     text-decoration: underline;
@@ -150,13 +157,13 @@ header nav ul li a {
 
 /*start of project section */
 .project-border {
-    border: 10px solid rgb(201, 102, 118);
+    border: 10px solid var(--border-color);
 
 }
 
 .project-title {
-    font-size: 50px;
-    color: #383D5C;
+    font-size: var(--font-size);
+    color: var(--header-color);
     text-decoration: underline;
     text-align: center;
 } 
@@ -180,16 +187,16 @@ header nav ul li a {
 } 
 
 .contact-border {
-    border: 10px solid rgb(201, 102, 118);
+    border: 10px solid var(--border-color);
     margin: 40px 100px 0px 90px;
     padding: 10px 300px;
 }
 
 #contact {
-    font-size: 50px;
+    font-size: var(--font-size);
     padding-bottom: 30px;
     text-align: center;
-    color: #383D5C;
+    color: var(--header-color);
     text-decoration: underline;
 }
 
@@ -220,22 +227,22 @@ header nav ul li a {
 
 /* contact form */
 .form-location {
-    border: 10px solid rgb(201, 102, 118);
+    border: 10px solid var(--border-color);
     margin: 40px 100px 0px 100px;
     flex: 2;
     
 }
 .form-content {
     text-align: center;
-    font-size: 50px;
+    font-size: var(--font-size);
     margin-top: 40px;
 }
 
 #message-h5 {
     text-align: center;
-    font-size: 50px;
+    font-size: var(--font-size);
     margin-top: 10px;
-    color: #383D5C;
+    color: var(--header-color);
     text-decoration: underline;
 }
 
@@ -255,7 +262,7 @@ header nav ul li a {
 
 #footer-copy {
     text-align: center;
-    color: white;
+    color: var(--text-color);
     font-size: 30px;
 }
 
