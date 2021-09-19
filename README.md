@@ -4,7 +4,7 @@
 HTML
     • Created a webpage to display my abilities and projects as a full-stack web developer.
     • Formatted the webpage to be more acccessible, with semantic Html elements by adding the appropriate tags. 
-    • Used Metatags and Sematic HTML for SEO optimizaton
+    • Used Sematic HTML for SEO optimizaton
     • To make all images have accessible alt attributes.
     • The heading attributes in sequential order.
     • The title element are concise, and descriptive. 
